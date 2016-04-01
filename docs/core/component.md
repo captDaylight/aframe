@@ -478,8 +478,8 @@ Then with the line component written and registered, we can use it in HTML:
   </a-assets>
 
   <a-entity id="happy-face" position="0 2 -10">
-    <a-entity mixin="red" line="path: -1 1 0, -1 0.5 0, -1 0 0"></a-entity>
-    <a-entity mixin="red" line="path: 1 1 0, 1 0.5 0, 1 0 0"></a-entity>
+    <a-entity mixin="red" line="path: -1 1 0, -1 0 0"></a-entity>
+    <a-entity mixin="red" line="path: 1 1 0, 1 0 0"></a-entity>
     <a-entity mixin="red" line="path: -2 -1 0, 0 -2 0, 2 -1"></a-entity>
   </a-entity>
 
